@@ -1,0 +1,60 @@
+*{
+    color: white;
+}
+.product{
+    width: 400px;
+    height: 500px;
+    background-color: #1d1d1d;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: top;
+    flex-direction: column;
+}
+
+.image{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.nameBox{
+    width: 100%;
+    background-color: #4169E1;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.name{
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.description{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size:14px;
+    font-weight: 500;
+}
+.inStock{
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500; 
+}
+.inStock span{
+    color: #4169E1;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 24px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+.footer {
+  background-color: #1d1d1d;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.open {
+  color: #10a100;
+  font-weight: 600;
+}
+.closed {
+  color: #d30000;
+  font-weight: 600;
+}
